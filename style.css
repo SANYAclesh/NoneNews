@@ -1,13 +1,13 @@
 .animated-text {
-    opacity: 0; /* Початкова прозорість тексту */
-    animation: fadeIn 2s ease forwards; /* Визначення анімації */
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards; 
 }
 
 @keyframes fadeIn {
     from {
-        opacity: 0; /* Початкова прозорість (текст невидимий) */
+        opacity: 0; 
     }
     to {
-        opacity: 1; /* Завершальна прозорість (текст повністю видимий) */
+        opacity: 1; 
     }
 }
