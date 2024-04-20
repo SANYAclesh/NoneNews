@@ -1,16 +1,16 @@
 #animated-text {
-    opacity: 0; /* Початкова прозорість тексту */
-    animation: fadeInAnimation 2s ease forwards; /* Визначення анімації */
+    opacity: 0; 
+    animation: fadeInAnimation 2s ease forwards; 
 }
 
 @keyframes fadeInAnimation {
     from {
-        opacity: 0; /* Початкова прозорість (текст невидимий) */
-        transform: translateY(-20px); /* Початкове положення (зсув вгору на 20px) */
+        opacity: 0; 
+        transform: translateY(-20px); 
     }
     to {
-        opacity: 1; /* Завершальна прозорість (текст повністю видимий) */
-        transform: translateY(0); /* Зміщення тексту в початкове положення */
+        opacity: 1; 
+        transform: translateY(0);
     }
 }
 
