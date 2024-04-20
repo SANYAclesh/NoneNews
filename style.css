@@ -14,6 +14,6 @@
     }
 }
 
-transform: rotate (
-    -90deg
-)
+.footer__text {
+  line-height: 80px;
+}
