@@ -13,3 +13,15 @@
         transform: translateY(0);
     }
 }
+
+body {
+    display: flex;
+}
+
+nav {
+    order: 1; 
+}
+
+section {
+    order: 2; 
+}
