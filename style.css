@@ -14,14 +14,3 @@
     }
 }
 
-body {
-    display: flex;
-}
-
-nav {
-    order: 1; 
-}
-
-section {
-    order: 2; 
-}
